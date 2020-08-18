@@ -92,7 +92,7 @@ type House struct {
 }
 
 func (house House) description() string {
-	return "This house belongs to " + house.OwnerName + ", it is located at" + house.Address
+	return "This house belongs to " + house.OwnerName + ", it is located at: " + house.Address
 }
 
 type Product struct {
