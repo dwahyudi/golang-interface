@@ -59,6 +59,14 @@ func main() {
 		description := shoppable.description()
 		fmt.Println(description)
 	}
+
+	// shoppableDescription(store1)
+	// shoppableDescription(foodTruck1)
+}
+
+func shoppableDescription(shoppable Shoppable) {
+	desc := shoppable.description()
+	fmt.Println(desc)
 }
 
 // Drivable sets an interface for drivable vehicles.
